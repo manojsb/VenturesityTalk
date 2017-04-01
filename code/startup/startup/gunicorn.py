@@ -18,7 +18,8 @@
 #       range.
 #
 
-bind = 'unix:/tmp/venturesity_talk.sock'
+#bind = 'unix:/tmp/venturesity_talk.sock'
+bind = '0.0.0.0:8000'
 backlog = 1024
 
 #
